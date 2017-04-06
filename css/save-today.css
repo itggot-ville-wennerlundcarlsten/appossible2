@@ -1,0 +1,32 @@
+.top-bar{
+    background-color: #263238;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height:56px;
+}
+.top-bar p{
+    color: white;
+    margin:0px;
+    margin-left: 48px;
+}
+.top-bar img {
+    margin-left: 16px;
+}
+.day-input{
+    background: none;
+    border: solid 1px transparent;
+    color:white;
+    margin-left:48px;
+}
+.day-description{
+    margin-left: 16px;
+    margin-right: 16px;
+    border: solid 1px transparent;
+    width: 288px;
+    overflow: visible;
+}
+.description{
+    margin-top: 16px;
+}
+

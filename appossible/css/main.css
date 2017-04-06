@@ -1,0 +1,349 @@
+.container {
+        height: 100vh;
+        flex-direction: column;
+
+    }
+
+    .icon {
+        background-image: url("../img/Missionapppossible-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 286px;
+        height: calc(100vh - (40px + 72px));
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .menu {
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+        margin-top: 16px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px;
+        background-color: white;
+        position:absolute;
+
+    }
+
+    .action-button {
+        width: 56px;
+        height: 56px;
+        border-radius: 100px;
+        background: #ff3d00;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 5px;
+        border: 0px;
+    }
+
+    .action-button-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-self: flex-end;
+        position:absolute;
+        right:0;
+        bottom:0;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+    }
+
+    .overlay-content {
+        width: 160px;
+        height: 568px;
+        position: absolute;
+
+        margin-top: -284px;
+        margin-left: -160px;
+        background-color: white;
+        z-index: 11; /* 1px higher than the overlay layer */
+        display: flex;
+        line-height: 250%;
+
+    }
+
+    .slide-menu {
+        -webkit-animation-name: slide;
+        -webkit-animation-duration: 0.5s;
+        top: 50%;
+        left: 50%;
+    }
+
+    .hide {
+        display: none
+    }
+
+    @keyframes slide {
+        from {
+            margin-left: -350px;
+        }
+        to {
+            margin-left: -160px
+        }
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+    }
+
+    li img {
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    li {
+        font-weight:;
+        padding-left: 30px;
+    }
+
+    .home {
+        background-color: lightgrey;
+    }
+
+    .overlay-content a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .home-button {
+        width: 160px;
+        height: 40px;
+        text-decoration: none;
+    }
+
+    .adding {
+        width: 320px;
+        height: 200px;
+        z-index: 20;
+        position: absolute;
+        background-color: white;
+        margin-top: 568px;
+    }
+
+    .open-adding {
+        -webkit-animation-name: open;
+        -webkit-animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes open {
+        from {
+            margin-top: 568px;
+        }
+        to {
+            margin-top: 368px
+        }
+    }
+    .adding-ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .adding-ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .adding-ul li {
+        margin-bottom: 10px;
+    }
+
+
+@media screen and (min-width: 321px) {
+
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .container {
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .icon {
+        background-image: url("../img/Missionapppossible-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        max-width: 286px;
+        height: calc(100vh - (40px + 72px));
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+
+    .menu {
+        display: none;
+        width: 24px;
+        height: 24px;
+        margin-left: 16px;
+        margin-top: 16px;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px;
+        background-color: white;
+    }
+
+    .action-button {
+        width: 56px;
+        height: 56px;
+        border-radius: 100px;
+        background: #ff3d00;
+        margin-right: 16px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 5px;
+        border: 0px;
+    }
+
+    .action-button-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        align-self: flex-end;
+    }
+
+    .overlay {
+        display;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 15;
+    }
+
+    .overlay-content {
+        width: 200px;
+        height: 1000px;
+        position: absolute;
+        border: solid 1px black;
+        margin-top: -20px;
+        margin-left: 0px;
+        background-color: white;
+        z-index: 11; /* 1px higher than the overlay layer */
+        display: flex;
+        line-height: 250%;
+        padding-top: 16px;
+
+    }
+
+    .overlay-content ul {
+        width: 202px;
+    }
+
+    .slide-menu {
+        -webkit-animation-name: slide;
+        -webkit-animation-duration: 0.5s;
+        top: 50%;
+        left: 50%;
+    }
+
+    .hide {
+        display: none
+    }
+
+    @keyframes slide {
+        from {
+            margin-left: -350px;
+        }
+        to {
+            margin-left: -160px
+        }
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 160px;
+    }
+
+    li img {
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    li {
+        font-weight:;
+        padding-left: 30px;
+    }
+
+    .home {
+        background-color: lightgrey;
+    }
+
+    .overlay-content a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .home-button {
+        width: 160px;
+        height: 40px;
+        text-decoration: none;
+    }
+
+    .adding {
+        width: 1920px;
+        height: 500px;
+        z-index: 20;
+        position: absolute;
+        background-color: white;
+        margin-top: 1000px;
+    }
+
+    .open-adding {
+        -webkit-animation-name: open;
+        -webkit-animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes open {
+        from {
+            margin-top: 750px;
+        }
+        to {
+            margin-top: 500px
+        }
+    }
+    .adding-ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .adding-ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .adding-ul li {
+        margin-bottom: 10px;
+    }
+}
