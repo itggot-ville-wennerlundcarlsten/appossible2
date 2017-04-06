@@ -21,12 +21,80 @@
 
 <!-- Add your site or application content here -->
 
-<div class="top-bar"><a href="index.html"><img src="./img/plus.png"></a><input class="day-input" type="text" value="Nameless day" tabindex="0" dir="ltr"> </div>
+<div class="top-bar"><a href="index.html"><img src="./img/plus.png"></a><input class="day-input" type="text" placeholder="Nameless day" tabindex="0" dir="ltr"> </div>
 <div class="description">
-    <textarea id="description" maxlength="300" class="day-description">Enter a description of your day.</textarea>
+    <textarea id="InputTextArea" placeholder="Describe your day" onkeyup="resizeTextarea('InputTextArea')" maxlength="300" class="day-description"></textarea>
 </div>
 
-
+<div class="breakfast">
+    <p>Breakfast</p>
+    <button class="arrow1" onclick="open_thing1(this)"></button>
+</div>
+<div id="breakfast-info" class="allb not-open">
+    <div class="nutrition">
+        <p>Nutrition (g)</p>
+        <p>Carbs</p>
+        <p>Fat</p>
+        <p>Protein</p>
+    </div>
+    <div class="porridge">
+        <p>Porridge</p>
+        <p>68</p>
+        <p>5</p>
+        <p>20</p>
+    </div>
+    <div class="juice">
+        <p>Orajuice</p>
+        <p>58</p>
+        <p>0</p>
+        <p>30</p>
+    </div>
+</div>
+<div class="lunch"><p>Lunch</p><button class="arrow2" onclick="open_thing2(this)"></button></div>
+<div id="lunch-info" class="alll not-open">
+    <div class="nutrition">
+        <p>Nutrition (g)</p>
+        <p>Carbs</p>
+        <p>Fat</p>
+        <p>Protein</p>
+    </div>
+    <div class="porridge">
+        <p>Porridge</p>
+        <p>68</p>
+        <p>5</p>
+        <p>20</p>
+    </div>
+    <div class="juice">
+        <p>Orajuice</p>
+        <p>58</p>
+        <p>0</p>
+        <p>30</p>
+    </div>
+</div>
+<div class="supper"><p>Supper</p>  <button class="arrow3" onclick="open_thing3(this)"></button></div>
+<div id="supper-info" class="alls not-open">
+    <div class="nutrition">
+        <p>Nutrition (g)</p>
+        <p>Carbs</p>
+        <p>Fat</p>
+        <p>Protein</p>
+    </div>
+    <div class="porridge">
+        <p>Porridge</p>
+        <p>68</p>
+        <p>5</p>
+        <p>20</p>
+    </div>
+    <div class="juice">
+        <p>Orajuice</p>
+        <p>58</p>
+        <p>0</p>
+        <p>30</p>
+    </div>
+</div>
+<div class="save-box">
+<a class="save" href="index.html"><img src="./img/content-save.png"><p>Save</p></a>
+</div>
 
 
 
