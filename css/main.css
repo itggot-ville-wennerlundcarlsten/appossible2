@@ -167,6 +167,10 @@
     .adding-ul li {
         margin-bottom: 10px;
     }
+    .adding-ul img{
+        width: 24px;
+        height: 24px;
+    }
 
 
 @media screen and (min-width: 321px) {
@@ -333,9 +337,11 @@
         }
     }
     .adding-ul {
+        width: 500px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        font-size: 2em;
     }
 
     .adding-ul a {
@@ -345,5 +351,9 @@
 
     .adding-ul li {
         margin-bottom: 10px;
+    }
+    .adding-ul img{
+        height: 48px;
+        width: 48px;
     }
 }

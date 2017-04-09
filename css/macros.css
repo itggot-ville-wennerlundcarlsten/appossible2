@@ -151,3 +151,188 @@ body{
     background: white;
     background-image: url(../img/ic_keyboard_arrow_down.png);
 }
+.select{
+    margin-left:16px;
+    background-color: transparent;
+    border: 1px transparent solid;
+    color: white;
+}
+.select-option{
+    color: black;
+
+}
+::selection{
+    color: black;
+}
+
+@media screen and (min-width: 321px) {
+    body{
+        background: #e5e5e5;
+    }
+    .top-bar{
+        background-color: #263238;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        height:56px;
+    }
+    .top-bar p{
+        color: white;
+        margin:0px;
+        margin-left: 48px;
+    }
+    .top-bar img{
+        margin-left: 16px;
+    }
+    .breakfast{
+        background-color: white;
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        height: 46px;
+        justify-content: space-between;
+    }
+    .breakfast p{
+        margin-left: 16px;
+        width:280px;
+    }
+    .allb{
+        margin-bottom: 16px;
+    }
+    .alll{
+        margin-bottom: 16px;
+    }
+    .alls{
+        margin-bottom: 16px;
+    }
+    .nutrition{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .nutrition p{
+        margin:0px;
+        color: #9a9a9a;
+        font-size: 80%;
+    }
+    .porridge{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: solid 1px #e0e0e0;
+        border-bottom: solid 1px #e0e0e0;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .porridge p{
+        font-size: 80%;
+    }
+    .juice{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-top: 3px;
+        padding-bottom:3px;
+    }
+    .juice p{
+        font-size: 80%;
+    }
+    .lunch{
+        background-color: white;
+        border-top: solid 1px #e0e0e0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 46px;
+        justify-content: space-between;
+    }
+    .lunch p{
+        margin-left:16px;
+        width:280px;
+    }
+    .lunch img{
+        right: 16px;
+    }
+    .supper{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 46px;
+        border-top: solid 1px #e0e0e0;
+        justify-content: space-between;
+    }
+    .supper p{
+        margin-left:16px;
+        width:280px;
+    }
+    .arrow1{
+        height:24px;
+        display: flex;
+        align-items: center;
+        width:24px;
+        justify-content: flex-end;
+        margin-right: 16px;
+        padding: 0px;
+        border: none;
+        background: white;
+        background-image: url(../img/ic_keyboard_arrow_up.png);
+    }
+    .arrow2{
+        height:24px;
+        display: flex;
+        align-items: center;
+        width:24px;
+        justify-content: flex-end;
+        margin-right: 16px;
+        padding: 0px;
+        border: none;
+        background: white;
+        background-image: url(../img/ic_keyboard_arrow_up.png);
+    }
+    .arrow3{
+        height:24px;
+        display: flex;
+        align-items: center;
+        width:24px;
+        justify-content: flex-end;
+        margin-right: 16px;
+        padding: 0px;
+        border: none;
+        background: white;
+        background-image: url(../img/ic_keyboard_arrow_up.png);
+    }
+    .not-open{
+        display: none;
+    }
+    .arrow_down{
+        height:24px;
+        display: flex;
+        align-items: center;
+        width:24px;
+        justify-content: flex-end;
+        margin-right: 16px;
+        padding: 0px;
+        border: none;
+        background: white;
+        background-image: url(../img/ic_keyboard_arrow_down.png);
+    }
+    .select{
+        margin-left:16px;
+        background-color: transparent;
+        border: 1px transparent solid;
+        color: white;
+    }
+    .select-option{
+        color: black;
+
+    }
+    ::selection{
+        color: black;
+    }
+}
